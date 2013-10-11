@@ -1,4 +1,5 @@
 /target
+/targets/
 /lib
 /classes
 /checkouts
@@ -10,3 +11,9 @@ pom.xml.asc
 .lein-failures
 .lein-plugins
 .lein-repl-history
+
+DS_Store
+
+*.iws
+workspace.xml
+tasks.xml
