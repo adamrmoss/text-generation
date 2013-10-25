@@ -5,6 +5,8 @@
 (deftest analyze-banana
   (testing "Analyzing just the single word \"banana\""
     (let [analysis (analyze "banana")]
-      (is (= ["banana"]
-             (:analyzed-words analysis))))))
+      (is (= #{"banana"}
+             (:analyzed-words analysis)))
+      (is (= {6 1}
+             (:word-length-distribution analysis))))))
 
