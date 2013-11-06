@@ -1,4 +1,4 @@
-(ns adamrmoss.random.core)
+(ns org.adamrmoss.random.core)
 
 (defn distribution-entry-to-choice-vector [choice]
   (repeat (val choice) (key choice)))

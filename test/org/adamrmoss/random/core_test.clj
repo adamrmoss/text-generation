@@ -1,6 +1,6 @@
-(ns adamrmoss.random.core-test
+(ns org.adamrmoss.random.core-test
   (:use clojure.test
-        adamrmoss.random.core))
+        org.adamrmoss.random.core))
 
 (deftest choices-from-collection
   (let [sample-vector [1, 2, 3, 4, 5]

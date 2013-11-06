@@ -1,4 +1,4 @@
-(ns adamrmoss.text-generation.core)
+(ns org.adamrmoss.text-generation.core)
 
 (defn analyze
   ([word config]
